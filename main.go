@@ -25,6 +25,7 @@ type Person struct {
 var persons = []Person{
 	{ID: "1", FullName: "John Doe", Age: 25},
 	{ID: "2", FullName: "Jane Doe", Age: 27},
+	{ID: "3", FullName: "Jenny Doe", Age: 26},
 }
 
 func getPerson(c *gin.Context) {
