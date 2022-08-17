@@ -54,9 +54,10 @@ func createPerson(c *gin.Context) {
 
 func main() {
 	router := gin.Default()
+	gin.SetMode(gin.ReleaseMode)
 	router.GET("/", GetIndex)
 	router.GET("/persons", getPerson)
 	router.GET("/persons/:id", getPersonByID)
 	router.POST("/persons", createPerson)
-	router.Run(":8080")
+	router.Run()
 }
