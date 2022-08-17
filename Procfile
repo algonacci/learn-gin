@@ -1,1 +1,1 @@
-web: learn-gin
+web: main
