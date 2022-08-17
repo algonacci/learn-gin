@@ -1,1 +1,1 @@
-web: bin/learn-gin
+web: learn-gin
